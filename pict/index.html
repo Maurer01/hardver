@@ -1,16 +1,46 @@
 <html>
 <head>
 <title>Billentyűzetek, egerek</title>
-<style>
-    body{background-color: white;}
-    h1{text-align: center;}
-    h3{margin-left: 50px}
-    h4{margin-left: 100px;}
-    img{width: 20%}
-    p{margin-left: 100px;}
+
+    <style>
+*{box-sizing:border-box}
+body {background-image: url(hardver.jpg) ;background-repeat:no-repeat; background-size: cover; background-attachment: fixed}
+.header {width:100%; display: flex; justify-content: space-around;}
+.img_header_div {background-color:rgba(255,255,0,0.6) ;width:20%; border-radius:10%;}
+.title_header{width:60%; background-color:rgba(255,255,0,0.6); padding-top:1em; font-size:2.5em; font-weight:bolder; box-shadow:3px 3px 3px black}
+h1{text-align: center; color:brown; text-shadow: 3px 3px 3px black;}
+.img9et {width:100%; padding:10px; outline:3px solid black; border-radius:10%;}
 </style>
+
 </head>
 <body>
+               <!--A fejléc kezdete-->
+    <div class="header">
+                <div class="img_header_div">
+                    <img class="img9et" src="9et.jpg" alt="asf">
+                </div>
+                <div class="title_header"> <h1>Hardverelemek vcv</h1></div>
+            </div>
+            <!--a fejléc vége-->
+            <!--a navigáció-->
+            <nav>
+        <div>
+            <a href="#">Linkek helye</a>
+        </div>
+        <div>
+            <a href="#">Linkek helye</a>
+        </div>
+        <div>
+            <a href="#">Linkek helye</a>
+        </div>
+        <div>
+            <a href="#">Linkek helye</a>
+        </div>
+        <div>
+            <a href="#">Linkek helye</a>
+        </div>
+            </nav>
+            <!--navigáció vége-->
 <h1>Beviteli eszközök (Egér, Billentyűzet)</h1>
 <p><h2>Egerek:</h2></p>
 <p><h3>Mechanikus egerek:</h3></p>
@@ -21,21 +51,21 @@
         <li>Az optocsatolók 4 jelű infravörös LEDjei átvilágítanak a hozzájuk tartozó korongok résein.</li><br>
         <li>Bármely korong elfordulásakor a rajta lévő rések átengedik a hozzá tartozó 4 LED fényét, míg a rések közötti fogak nem. Végeredményben az egér elmozdulása fényimpulzusok sorozatává változik, mégpedig annál több fényimpulzus keletkezik, minél nagyobb az egér által megtett út. A mechanikus egerek által még feldolgozható legkisebb elmozdulás értéke 1/200-ad inch, ami 0,127 mm-nek felel meg.[1]</li><br>
         <li>Az optocsatolók 5 jelű fényérzékeny szenzorai érzékelik a fényimpulzusokat és elektromos jelekké alakítják.</li><br>
-        <li>Az elektromos jeleket a képen nem jelölt elektronika dolgozza fel és továbbítja a számítógép felé. Ugyancsak ez az elektronika dolgozza fel az egérgombok lenyomását, továbbá soros vonali kommunikáció esetén ez az áramkör állítja elő az egér tápfeszültségét is a gép által küldött kommunikációs jelekből.</li></ul></h4></p><p><img src="/pict/egergomb.jpg" alt="rizo"></p>
+        <li>Az elektromos jeleket a képen nem jelölt elektronika dolgozza fel és továbbítja a számítógép felé. Ugyancsak ez az elektronika dolgozza fel az egérgombok lenyomását, továbbá soros vonali kommunikáció esetén ez az áramkör állítja elő az egér tápfeszültségét is a gép által küldött kommunikációs jelekből.</li></ul></h4></p><p><img src="golyo.jpg" alt="rizo"></p>
 <p><h3>Optikai egerek:</h3></p>
 <p><h4>Egy másik fejlesztési vonalon az optikai egér a mozgásokat egy optikai szenzor segítségével ismerte fel, mely egy fénykibocsátó diódát használt a megvilágításhoz. Az első optikai egerek a Mouse Systems Corporationnél dolgozó Steve Kirsch-től erednek, ezeket még csak egy speciális fémes egérpadon lehetett használni, melyre kék és szürke vonalak hálója volt felfestve. Miután a számítógépes eszközök egyre olcsóbbak lettek, lehetőség nyílt egy sokkal pontosabb képelemző chip beépítésére is az egérbe, melynek segítségével az egér mozgását már szinte bármilyen felületen érzékelni lehetett, így többé nem volt szükség speciális egérpadra. Ez a fejlesztés megnyitotta a lehetőséget az optikai egerek elterjedése előtt.
 
         A modern optikai egerek egy reflexszenzor segítségével sorozatos képeket készítenek az egér alatti területről. A képek közötti eltérést egy képelemző chip dolgozza fel, és az eredményt a két tengelyhez viszonyított elmozdulássá alakítja. Például az Agilent Technologies ADNS-2610 optikai szenzora[2] másodpercenként 1512 képet elemez; mindegyik kép 18×18 pixeles, és minden pixel 64 szürkeárnyalatot tartalmazhat.
         
-        Az optikai egér előnye a mechanikussal szemben a nagyobb pontosság, kevesebb alkatrész és a koszolódás kiküszöbölése </h4></p><p><img src="/pict/eger.jpg" alt="agw"></p>
+        Az optikai egér előnye a mechanikussal szemben a nagyobb pontosság, kevesebb alkatrész és a koszolódás kiküszöbölése </h4></p><p><img src="golyós egér.jpg" alt="agw" width="20%"></p>
 <p><h3>Trackball</h3></p>
 <p><h4>Mechanikus kivitelben itt is a fő alkotóelem a golyó, mely a mechanikai elmozdulást adja át a két görgőnek. Ezek végén tárcsa található, melynek nyílásai egy optikai adó és vevő előtt haladnak el. Ez a kimenetén egy impulzussal jelzi, hogy egy rés haladt el előtte. Ha két-két ilyen kapunk van, akkor segítségükkel meg tudjuk határozni a mozgatás irányát és sebességét.
 
-        Optikai kivitelben a golyó felülete felel meg a normál optikai egér által nézett alátétnek. A mellékelt képre kattintva már jól látható, hogy a golyón olyan minta van, amely segíti az elfordulás jobb leolvasását. </h4></p><p><img src="/pict/trackball.jpg" alt="awgj"></p>
+        Optikai kivitelben a golyó felülete felel meg a normál optikai egér által nézett alátétnek. A mellékelt képre kattintva már jól látható, hogy a golyón olyan minta van, amely segíti az elfordulás jobb leolvasását. </h4></p><p><img src="track.jpg" alt="awgj" width="20%"></p>
         <p><h2>Billentyűzetek:</h2></p>
 <p><h3>Mechanikus billentyűzetek:</h3></p>
-<p><h4>A minden egyes billentyű alatt található külön kapcsoló akár 50 millió leütést is kibír, és egyenként cserélhető. Gépeléskor minden leütés után érezhető és hallható visszajelzést kapunk, hogy az adott gomb lenyomása végbement. Ez előny a „lágy” lenyomású billentyűzethez képest, ahol visszajelzés gyakorlatilag nincs az egyes gombok lenyomásáról. </h4></p><p><img id="1" src="/pict/switch.jpg" alt="awgh"></p>        
+<p><h4>A minden egyes billentyű alatt található külön kapcsoló akár 50 millió leütést is kibír, és egyenként cserélhető. Gépeléskor minden leütés után érezhető és hallható visszajelzést kapunk, hogy az adott gomb lenyomása végbement. Ez előny a „lágy” lenyomású billentyűzethez képest, ahol visszajelzés gyakorlatilag nincs az egyes gombok lenyomásáról. </h4></p><p><img id="1" src="switch.png" alt="awgh" width="20%"></p>        
 <p><h3>Membrános billentyűzetek:</h3></p>
-<p><h4>A billentyűzetek elektronikus érzékelőrendszere fölött kétféle mechanikus rendszer mozgathatja a gombokat. Egyszerűsége és olcsósága miatt a membrános az elterjedtebb, ennél hordozórétegbe rendezett, rugalmas gumibuborékok mozgatják a gombokat. Az eljárás hátránya, hogy minden gomb kissé más nyomáserőt igényel, idővel pedig változik az anyag rugalmassága; élettartama durván egymillió leütés gombonként.A membrános billentyűzetek továbbfejlesztett változata található a notebookokban. Itt a rugalmas gumi mozgását két műanyag elemből álló, úgynevezett ollós szerkezet segíti, így a lenyomási erő egyenletesebbé válik, a gombok élettartama pedig megnő.</h4></p><p><img src="/pict/membran.jpg" alt="wah"></p>
+<p><h4>A billentyűzetek elektronikus érzékelőrendszere fölött kétféle mechanikus rendszer mozgathatja a gombokat. Egyszerűsége és olcsósága miatt a membrános az elterjedtebb, ennél hordozórétegbe rendezett, rugalmas gumibuborékok mozgatják a gombokat. Az eljárás hátránya, hogy minden gomb kissé más nyomáserőt igényel, idővel pedig változik az anyag rugalmassága; élettartama durván egymillió leütés gombonként.A membrános billentyűzetek továbbfejlesztett változata található a notebookokban. Itt a rugalmas gumi mozgását két műanyag elemből álló, úgynevezett ollós szerkezet segíti, így a lenyomási erő egyenletesebbé válik, a gombok élettartama pedig megnő.</h4></p><p><img src="/pict/membran.jpg" alt="wah" width="30%"></p>
 </body>
 </html>
