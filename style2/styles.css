@@ -16,7 +16,7 @@ nav {display:flex; flex-direction:row; justify-content:space-around; width:90%; 
     text-align:center;}
 
 p {padding:2em; text-align: justify}
-
+.elso{width: 80%}
 .elso, .masodik, .harmadik, .negyedik{margin-right: 40px;
     text-align: justify;
     background-color:rgba(255,255,0,0.6);
