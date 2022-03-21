@@ -1,5 +1,5 @@
 * {box-sizing:border-box}
-body {background-image: url("../pict/9et.jpg"); background-repeat:no-repeat;background-size: cover;background-attachment: fixed;}
+body {background-image: url("../pict/hardver.jpg"); background-repeat:no-repeat;background-size: cover;background-attachment: fixed;}
 .header {display: flex; justify-content: space-around; width:100%}
 .img_header_div {width:20%; border-radius:10%;background-color:rgba(255,255,0,0.6)}
 .title_header{width:60%; background-color:rgba(255,255,0,0.6); padding-top:1rem;  box-shadow:3px 3px 3px black}
