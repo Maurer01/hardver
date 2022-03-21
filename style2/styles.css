@@ -9,7 +9,7 @@ h2 {color:brown;}
 nav {display:flex; flex-direction:row; justify-content:space-around; width:90%; margin-left:auto; margin-right: auto;padding:2em;background-color:rgba(255,255,0,0.6); margin-top:2em; box-shadow:3px 3px 3px black}
 .wrapper {width:80%;margin-left:auto; margin-right: auto; display:flex;flex-direction:row; text-align: center}
 p {text-align: justify;padding:2%}
-.inner_div1, .inner_div2, .inner_div3, .inner_div4, .inner_div5{width:30%; background-color:rgba(255,255,0,0.6); border-left:10px solid blue}
+.inner_div1, .inner_div2, .inner_div3, .inner_div4, .inner_div5{background-color:rgba(255,255,0,0.6); margin-right: 40px; text-align: justify ; border-left: 10px solid blue}
 figure img {width:100%; background-color:rgba(255,255,0,0.6); box-shadow:5px 3px 8px black}
 figcaption {text-align: center;font-size:1.5em; color:blue; margin-top:5px}
 @media screen and (max-width:900px)
