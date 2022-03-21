@@ -17,7 +17,7 @@ nav {display:flex; flex-direction:row; justify-content:space-around; width:90%; 
 
 p {padding:2em}
 
-.inner_div{margin-right: 40px;
+.inner_div, .elso, .masodik, .harmadik, .negyedik{margin-right: 40px;
     text-align: justify;
     background-color:rgba(255,255,0,0.6);
     border-left:10px solid blue;
